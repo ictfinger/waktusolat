@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const day = date.getDate();
 
         try {
-            const response = await fetch(`http://api.aladhan.com/v1/timings/${day}-${month}-${year}?latitude=${latitude}&longitude=${longitude}&method=2`);
+            const response = await fetch(`https://api.aladhan.com/v1/timings/${day}-${month}-${year}?latitude=${latitude}&longitude=${longitude}&method=2`);
             if (!response.ok) {
                 throw new Error('Gagal mengambil data waktu sholat.');
             }
