@@ -2,7 +2,7 @@
   "name": "Waktu Sholat",
   "short_name": "Waktu Sholat",
   "description": "Aplikasi pengingat waktu sholat sederhana.",
-  "start_url": "/index.html",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007BFF",
