@@ -1,0 +1,7 @@
+{
+  "name": "waktusolat",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Tidak ada build yang diperlukan, hanya men-deploy file statis.'"
+  }
+}
